@@ -1,0 +1,3 @@
+var j = 17 * 9;
+var i = -j * (4 + 9);
+var result = i + j;

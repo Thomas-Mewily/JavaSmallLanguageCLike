@@ -1,0 +1,4 @@
+var txt = "hello world!\n";
+
+printstr(txt);
+putchar(txt[4]); //o

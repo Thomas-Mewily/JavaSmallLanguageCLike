@@ -1,0 +1,24 @@
+
+while(true)
+{
+    printstr("Guess the number between 0 and 100 :\n");
+    var result = round random 100;
+    var guess = -1;
+    while(guess != result)
+    {
+        guess = ask();
+
+        if(guess != result)
+        {
+            if(guess > result)
+            {
+                printstr("It is less\n");
+            }else
+            {
+                printstr("It is more\n");
+            }
+        }
+    }
+
+    printstr("You found it!\n");
+}

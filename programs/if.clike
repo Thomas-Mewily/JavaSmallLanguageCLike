@@ -1,0 +1,19 @@
+if(1 == 10 - 9)
+{
+    printstr("1 == 10 - 9\n");
+}
+
+if(17 != 7)
+{
+    printstr("17 != 7\n");
+}
+
+if(true | false)
+{
+    printstr("true | false\n");
+}
+
+if(true & false)
+{
+    printstr("true & false\n");
+}

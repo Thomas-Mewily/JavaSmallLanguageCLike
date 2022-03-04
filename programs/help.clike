@@ -1,0 +1,82 @@
+var _ = 0;
+
+printstrnf("Welcome to clike !\n");
+printstrnf("The language suport :\n");
+printstrnf("\n");
+
+printstrnf("infix expression:\n");
+printstrnf("> 1+2*3\n");
+printstrnf("> max(3, 4)\n");
+printstrnf("> -2*(+3*4)\n");
+printstrnf("Press enter to continue\n");
+_ = askstr();
+
+printstrnf("variable :\n");
+printstrnf("> var a = 17;\n");
+printstrnf("> a = 9;\n");
+printstrnf("> a + 2002\n");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("if (else) :\n");
+printstrnf("> if(true) { putchar(\'Y\'); } else { putchar(\'N\'); }\n");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("while loop : (| mean inside a .txt file)\n");
+printstrnf("| var a = 3;\n");
+printstrnf("| while(a >= 0)\n");
+printstrnf("| { print(a); putchar(\'\\n\'); a=a-1; }\n");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("comment :\n");
+printstrnf("> // this is a comment\n");
+printstrnf("> /* multi line comment */\n");
+printstrnf("> max /* max function */ (0 /* number 0 */, 1 /* number 2 */)\n");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("malloc and free :\n");
+printstrnf("| var a = malloc(4); // number of double value\n");
+printstrnf("| a[0] = 17;\n");
+printstrnf("| a[1] = length(a);  // 4 \n");
+printstrnf("| a[2] = a[1]; // 4 too \n");
+printstrnf("| // free(a);  // to avoid memory leak\n");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("string : (allocated each time):\n");
+putchar('>');
+putchar(' ');
+putchar('"');
+printstrnf("hello world!\\n");
+putchar('"');
+printstrnf("\n\n");
+_ = askstr();
+
+printstrnf("io function:\n");
+printstrnf("> print(1); // print a double value\n");
+printstrnf("> putchar(\'T\'); // print a double ASCII value\n");
+printstrnf("> var a = ");
+putchar('"');
+printstrnf("hello world!\\n");
+putchar('"');
+putchar(';');
+putchar('\n');
+printstrnf("> printstr(a);       // print a string\n");
+printstrnf("> printstrnf(a);     // print a string and free the pointer\n");
+printstrnf("> var guess = ask(); // ask for a double\n");
+printstrnf("> guess = askstr();  // ask for a string\n");
+printstrnf("> guess = askchar(); // ask for a char\n");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("You can enter the name of a program inside the programs folder to execute it:\n");
+printstrnf("> scope.clike");
+printstrnf("\n");
+_ = askstr();
+
+printstrnf("Check the programs folder for more example\n");
+printstrnf("End of the help\n");
+printstrnf("\n");

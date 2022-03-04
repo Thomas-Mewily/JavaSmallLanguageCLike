@@ -1,0 +1,9 @@
+var a = malloc(3); // use double as pointer... è_é
+a[0] = 5;
+a[1] = 6;
+a[2] = 7;
+
+print(length(a));
+print(a[1]);
+
+//free(a);

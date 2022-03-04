@@ -1,0 +1,3 @@
+print(max(4, 8));
+putchar('\n');
+print max /* lul*/ ( 0 /* it work*/  ,     1 );

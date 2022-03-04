@@ -1,0 +1,7 @@
+var a = 8;
+{
+    var a = 10;
+    print(a);
+    putchar('\n');
+}
+print(a);

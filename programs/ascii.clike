@@ -1,0 +1,7 @@
+putchar(84); // T
+putchar('H');
+putchar('O');
+putchar('M');
+putchar('\n');
+putchar('A');
+putchar('S');

@@ -1,0 +1,23 @@
+
+if(1==0)
+{
+    print(1);
+}else
+{
+    print(0);
+}
+putchar('\n');
+
+printstrnf("test2\n");
+var age = 26;
+
+if(age < 18)
+{
+    printstrnf("enfant ou ado\n");
+}else if(age <= 25)
+{
+    printstrnf("jeune adulte\n");
+}else
+{
+    printstrnf("+25 ans\n");
+}

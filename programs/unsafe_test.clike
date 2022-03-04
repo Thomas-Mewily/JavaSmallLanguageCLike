@@ -1,0 +1,3 @@
+var a = malloc(3); // return ptr 1 (unstable)
+
+1[0] = 5;

@@ -1,0 +1,30 @@
+var txt = "Guess the number between 0 and 100 :\n";
+printstr(txt);
+free(txt);
+
+var result = round random 100;
+var guess = -1;
+
+while(guess != result)
+{
+    guess = ask();
+
+    if(guess != result)
+    {
+        if(guess > result)
+        {
+            txt = "It is less\n";
+            printstr(txt);
+            free(txt);
+        }else
+        {
+            txt = "It is more\n";
+            printstr(txt);
+            free(txt);
+        }
+    }
+}
+
+txt = "You found it!\n";
+printstr(txt);
+free(txt);
